@@ -317,6 +317,15 @@
 //////////////////////////// Security ////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
+/datum/supply_pack/security/armory/grenade_launcher
+	name = "Grenade Launcher Crate"
+	desc = "A handy grenade launcher that will fire any sort of grenade you come across."
+	access_budget = ACCESS_ARMORY
+	cost = 6500
+	small_item = FALSE
+	contains = list(/obj/item/gun/grenadelauncher)	
+	crate_name = "Grenade launcher Crate"
+	
 /datum/supply_pack/security
 	group = "Security"
 	access = ACCESS_SECURITY
